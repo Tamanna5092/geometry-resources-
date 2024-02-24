@@ -126,21 +126,21 @@
                   </div>
                 <!-- Ellipse -->
                 <div class="card w-92 bg-base-100 shadow-xl">
-                    <figure><img src="images/parallelogram.png" alt="Ellipse" /></figure>
+                    <figure><img src="images/ellipse.png" alt="Ellipse" /></figure>
                     <div class="card-body">
                       <h2 class="text-center font-semibold text-2xl">Ellipse</h2>
-                      <p class="text-center">Area = b x h</p>
+                      <p class="text-center">Area = π x a x b </p>
                       <div class="text-center">
-                        <input id="parallelogram-base" class="w-24 text-2xl p-2" type="text" placeholder="b">
+                        <input id="ellipse-a" class="w-24 text-2xl p-2" type="text" placeholder="a">
                         <span class="mr-2 ml-2">cm</span>
-                        <input id="parallelogram-height" class="w-24 text-2xl p-2" type="text" placeholder="h">
+                        <input id="ellipse-base" class="w-24 text-2xl p-2" type="text" placeholder="b">
                         <span>cm</span>
                         <div>
-                          <p>Area: <span id="parallelogram-area"></span><span>cm</span><sup>2</sup></p>
+                          <p>Area: <span id="ellipse-area"></span><span>cm</span><sup>2</sup></p>
                         </div>
                       </div>
                       <div class="card-actions">
-                        <button onclick="parallelogramCalculation()" class="btn btn-primary w-full">Calculate</button>
+                        <button onclick="ellipseCalculation()" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -160,5 +160,6 @@
     <script src="parallelogram.js"></script>
     <script src="rhombus.js"></script>
     <script src="pentagon.js"></script>
+    <script src="ellipse.js"></script>
 </body>
 </html>
